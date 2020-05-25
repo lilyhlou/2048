@@ -1,0 +1,79 @@
+  /**
+   * Page styles
+   */
+  h1 {
+      font-size: 50px;
+  }
+
+  body {
+    background-color: #a87373;
+    margin: 20px 0;
+    padding: 0 20px;
+    font-size: 15px;
+    text-align: center;
+  }
+  
+  body > main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 1em 2em;
+    font-family: sans-serif;
+    background-color: #f8f8f8;
+    min-height: 100vh;
+    box-sizing: border-box;
+    border-radius: 10px;
+  }
+  
+  table {
+    align-content: center;
+    width: 90%;
+    height: 700px;
+    text-align: center;
+
+
+  }
+  .head {
+      text-align: center;
+  }
+
+  tr {
+      border: solid 10px white ;
+      text-align: center;
+      align-items: center;
+  }
+
+  td {
+    font-size: 50px;
+    text-align: center;
+    background-color: #BBADA0;
+    border-right: solid 1px #BBADA0; 
+    border-left: solid 1px #BBADA0;
+    vertical-align: center;
+  }
+  
+  .border-right {
+    border-right: 1px solid black;
+}
+
+
+#overlay {
+  position: fixed; /* Sit on top of the page content */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+  cursor: pointer; /* Add a pointer on hover */
+}
+
+.hidden {
+  display: none !important; 
+}
+
+.overlaytext {
+  padding-top: 30%;
+  text-align: center;
+}
